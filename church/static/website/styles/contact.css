@@ -790,7 +790,7 @@ section
 	color: #000000;
 	font-weight: 500;
 	line-height: 1.4;
-	border-bottom: solid 2px #eb4141;
+	border-bottom: solid 2px lightseagreen;
 }
 .contact_info_list
 {
@@ -891,7 +891,7 @@ section
 	height: 54px;
 	border: none;
 	outline: none;
-	background: rgba(235,65,65,1);
+	background: lightseagreen;
 	font-size: 14px;
 	font-weight: 500;
 	color: #FFFFFF;
@@ -1044,7 +1044,7 @@ section
 .footer_social ul li a i
 {
 	font-size: 17px;
-	color: #eb4141;
+	color: ;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;

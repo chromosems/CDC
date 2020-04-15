@@ -16,6 +16,15 @@
     <link rel="stylesheet" type="text/css" href="{% static 'website/plugins/OwlCarousel2-2.2.1/animate.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'website/styles/main_styles.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'website/styles/responsive.css' %}">
+    <!--Contact--->
+    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/contact.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/contact_responsive.css' %}">
+    <!--Ministries---->
+    <link rel="stylesheet" type="text/css" href="styles/ministries.css">
+    <link rel="stylesheet" type="text/css" href="styles/ministries_responsive.css">
+    <!-----Sermons--->
+    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/sermons.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/sermons_responsive.css' %}">
 </head>
 <body>
 
@@ -32,7 +41,7 @@
                 <div class="row">
                     <div class="col top_bar_content d-flex flex-row align-items-center justify-content-start">
                         <div class="event_timer">
-                            <span>Next  Event:</span>
+                            <span>Next Big Event:</span>
                             <ul class="timer">
                                 <li class="d-inline-flex">
                                     <div id="day" class="timer_num">03</div>
@@ -72,8 +81,8 @@
                             <div class="logo_container">
                                 <div class="logo">
                                     <a href="#">
-                                        <span>Christ Disciples Church Uganda</span>
-                                        <img src="{% static 'website/images/logo.jpg' %}" alt="">
+                                        <span>Christ Disciples Church Uganda (CDC)</span>
+                                        <img src="images/logo.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -82,11 +91,10 @@
                             <div class="header_nav_container ml-auto">
                                 <nav class="main_nav">
                                     <ul>
-                                        <li class="active"><a href="#">Home</a></li>
-                                        <li><a href="ministries.html">Ministries</a></li>
-                                        <li><a href="sermons.html">Sermons</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li class="active"><a href="/">Home</a></li>
+                                        <li><a href="ministries">Ministries</a></li>
+                                        <li><a href="sermons">Sermons</a></li>
+                                        <li><a href="contact">Contact</a></li>
                                     </ul>
                                 </nav>
                                 <div class="search">
@@ -100,6 +108,7 @@
 									</svg>
                                 </div>
                             </div>
+
                             <!-- Hamburger -->
 
                             <div class="hamburger ml-auto">
@@ -110,6 +119,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="header_search_container">
                 <div class="container">
                     <div class="row">
@@ -137,12 +147,12 @@
         </div>
 
     </header>
+
+
     {% block content %}
 
-
     {% endblock %}
-
-     <!-- Footer -->
+    <!-- Footer -->
 
     <footer class="footer">
         <div class="container">
@@ -231,5 +241,8 @@
 <script src="{% static 'website/plugins/easing/easing.js' %}"></script>
 <script src="{% static 'website/plugins/parallax-js-master/parallax.min.js' %}"></script>
 <script src="{% static 'website/js/custom.js' %}"></script>
+<script src="{% static 'website/js/ministries_custom.js' %}"></script>
+<script src="{% static 'website/js/sermons_custom.js' %}"></script>
+
 </body>
 </html>
