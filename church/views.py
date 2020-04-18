@@ -3,7 +3,7 @@ from django.core.mail import send_mail
 
 
 def home(request):
-    return render(request, 'home.html', {})
+    return render(request, 'index.html', {})
 
 
 def contact(request):

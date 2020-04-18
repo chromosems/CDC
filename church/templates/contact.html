@@ -3,10 +3,10 @@
 <!-- Home -->
 
 {% block content %}
-		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
 <div class="home">
     <div class="home_background parallax-window" data-parallax="scroll"
-         data-image-src="{% static 'website/images/worship22.jpg' %}"
+         data-image-src="{% static 'website/images/contact.jpg' %}"
          data-speed="0.8"></div>
     <div class="container">
         <div class="row">
@@ -26,6 +26,7 @@
         </div>
     </div>
 </div>
+
 
 <!-- Contact Map -->
 
@@ -81,8 +82,14 @@
 
 <div class="contact_form_section">
     <div class="container">
-        <h2>Send Us a Message - Thank you {{names}}</h2>
+        {% if names %}
 
+        <center>
+            <h2>Thanks {{ names }}!</h2>
+            <p>We received your email and will respond shortly.....</p>
+            <br>
+        </center>
+        {% else %}
         <div class="row">
             <div class="col">
                 <div class="contact_title">Contact Us</div>
@@ -111,7 +118,7 @@
 
         </div>
     </div>
+    {% endif %}
+
 </div>
-
-
 {% endblock %}

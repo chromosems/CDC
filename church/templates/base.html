@@ -7,24 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Demo project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/bootstrap4/bootstrap.min.css' %} ">
-    <link href=" {% static 'website/plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet"
+    <!--- Ministries ------------>
+    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/bootstrap4/bootstrap.min.css' %}">
+    <link href="{% static 'website/plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet"
           type="text/css">
     <link rel="stylesheet" type="text/css" href="{% static 'website/plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
     <link rel="stylesheet" type="text/css"
           href="{% static 'website/plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'website/plugins/OwlCarousel2-2.2.1/animate.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/main_styles.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/responsive.css' %}">
-    <!--Contact--->
-    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/contact.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/contact_responsive.css' %}">
-    <!--Ministries---->
-    <link rel="stylesheet" type="text/css" href="styles/ministries.css">
-    <link rel="stylesheet" type="text/css" href="styles/ministries_responsive.css">
-    <!-----Sermons--->
+    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/ministries.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/ministries_responsive.css' %}">
+
+
+    <!---------Sermons----------->
     <link rel="stylesheet" type="text/css" href="{% static 'website/styles/sermons.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'website/styles/sermons_responsive.css' %}">
+
+    <!------------Contact------------>
+    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/contact.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/styles/contact_responsive.css' %}">
 </head>
 <body>
 
@@ -61,9 +62,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="donations_button ml-auto">
-                            <a href="#">Send Donations</a>
-                        </div>
+<!--                        <div class="donations_button ml-auto">-->
+<!--                            <a href="#">Send Donations</a>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -97,16 +98,7 @@
                                         <li><a href="contact">Contact</a></li>
                                     </ul>
                                 </nav>
-                                <div class="search">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                         version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 56.966 56.966"
-                                         style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
-                                         width="13px" height="14px">
-										<path class="search_path"
-                                              d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z"
-                                              fill="#353535"/>
-									</svg>
-                                </div>
+
                             </div>
 
                             <!-- Hamburger -->
@@ -186,16 +178,10 @@
                     <div class="footer_links">
                         <div class="footer_title">Useful Links</div>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Donations</a></li>
-                            <li><a href="sermons.html">Sermons</a></li>
-                            <li><a href="#">Causes</a></li>
-                            <li><a href="#">Quotes</a></li>
-                            <li><a href="blog.html">News</a></li>
-                            <li><a href="#">Event List</a></li>
-                            <li><a href="ministries.html">Ministries</a></li>
-                            <li><a href="#">Priests</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="sermons">Sermons</a></li>
+                            <li><a href="ministries">Ministries</a></li>
+                            <li><a href="contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -205,12 +191,12 @@
                     <div class="footer_contact">
                         <div class="footer_title">Contact Us</div>
                         <ul>
-                            <li><span>Address: </span>1481 Creekside Lane Avila Beach, CA 93424</li>
+                            <li><span>Address: </span>you address</li>
                             <li class="footer_contact_phone">
                                 <span>Phone: </span>
                                 <div>
-                                    <div> +53 345 7953 32453</div>
-                                    <div> +53 345 7557 822112</div>
+                                    <div> your phone 1</div>
+                                    <div> your phone 2</div>
                                 </div>
                             </li>
                             <li><span>Email: </span>yourmail@gmail.com</li>
@@ -234,15 +220,22 @@
 
 </div>
 
+<!------------ministries---------->
 <script src="{% static 'website/js/jquery-3.2.1.min.js' %}"></script>
-<script src="{% static 'website/styles/bootstrap4/popper.js' %}"></script>
+<script src=" {% static 'website/styles/bootstrap4/popper.js' %}"></script>
 <script src="{% static 'website/styles/bootstrap4/bootstrap.min.js' %}"></script>
 <script src="{% static 'website/plugins/OwlCarousel2-2.2.1/owl.carousel.js' %}"></script>
 <script src="{% static 'website/plugins/easing/easing.js' %}"></script>
 <script src="{% static 'website/plugins/parallax-js-master/parallax.min.js' %}"></script>
-<script src="{% static 'website/js/custom.js' %}"></script>
 <script src="{% static 'website/js/ministries_custom.js' %}"></script>
-<script src="{% static 'website/js/sermons_custom.js' %}"></script>
 
+<!----------------Sermons------------------->
+
+<script src="{% static 'website/js/sermons_custom.js' %}"></script>
+<!-----------------Contact---------------->
+
+<script src="{% static 'website/js/contact_custom.js' %}"></script>
+<!-----------Home------------>
+<script src="{% static 'website/js/custom.js' %}"></script>
 </body>
 </html>

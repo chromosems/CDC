@@ -414,7 +414,7 @@ section
 .logo a span
 {
 	font-size: 24px;
-	color: #353535;
+	color: #FFFF;
 }
 .logo a img
 {
@@ -898,13 +898,17 @@ section
 	padding-top: 67px;
 	padding-bottom: 66px;
 	padding-right: 140px;
+
 }
 .featured_col_2
 {
+    width:100%;
 	padding-left: 219px;
 	padding-top: 111px;
 	padding-bottom: 113px;
 	padding-right: 160px;
+	border: solid 2px lightseagreen;
+
 }
 .featured_2
 {
